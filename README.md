@@ -1,24 +1,56 @@
 <div align="center">
 
-<!-- 懂哥机极客之眼 Logo 与硬黑标题区 -->
-<p align="center">
-  <img src="https://jichangknow.com/logo.svg" width="90" height="90" alt="懂哥机 Logo" style="filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.5));" />
-</p>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="96" height="96">
+    <defs>
+      <linearGradient id="geekGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#38bdf8"/>
+        <stop offset="50%" stop-color="#0284c7"/>
+        <stop offset="100%" stop-color="#22c55e"/>
+      </linearGradient>
+      <linearGradient id="neonGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#22c55e" stop-opacity="0.4"/>
+        <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      </linearGradient>
+      <filter id="geekGlow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#38bdf8" flood-opacity="0.6"/>
+      </filter>
+    </defs>
+    <rect width="120" height="120" rx="26" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="60" cy="60" r="45" fill="url(#neonGlow)" filter="blur(10px)"/>
+    <polygon points="60,14 100,37 100,83 60,106 20,83 20,37" fill="none" stroke="url(#geekGrad)" stroke-width="2.5" stroke-dasharray="8 3" filter="url(#geekGlow)"/>
+    <polygon points="60,22 93,41 93,79 60,98 27,79 27,41" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="60" cy="14" r="3" fill="#22c55e"/>
+    <circle cx="100" cy="37" r="3" fill="#38bdf8"/>
+    <circle cx="100" cy="83" r="3" fill="#22c55e"/>
+    <circle cx="60" cy="106" r="3" fill="#38bdf8"/>
+    <circle cx="20" cy="83" r="3" fill="#22c55e"/>
+    <circle cx="20" cy="37" r="3" fill="#38bdf8"/>
+    <g filter="url(#geekGlow)">
+      <path d="M 43 45 L 36 45 L 36 75 L 43 75" fill="none" stroke="url(#geekGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="66" y1="43" x2="54" y2="77" stroke="#22c55e" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M 77 45 L 84 45 L 84 75 L 77 75" fill="none" stroke="url(#geekGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </svg>
 
-# <span style="color: #ffffff; font-family: 'Fira Code', Consolas, monospace; font-weight: 800;">懂哥机</span> <code style="color: #38bdf8; font-family: monospace;">&lt;/&gt;</code> <span style="color: #94a3b8; font-family: 'Fira Code', Consolas, monospace; font-weight: 500;">DongGeJi</span>
+  <h1><span style="color: #ffffff; font-family: 'Fira Code', Consolas, monospace; font-weight: 800;">懂哥机</span> <code style="color: #38bdf8; font-family: monospace;">&lt;/&gt;</code> <span style="color: #94a3b8; font-family: 'Fira Code', Consolas, monospace; font-weight: 500;">DongGeJi</span></h1>
 
-**`jichangknow.com`** | 专注全球网络质量、专线测速与硬核软路由协议研究的极客阵地。
+  <p><strong><code>jichangknow.com</code></strong> | 专注全球网络质量、专线测速与硬核软路由协议研究的极客阵地。</p>
 
-<!-- 全网安全与审计白皮书 Badges 实时状态栏 -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Security_Audit-ZERO--LOG-0284c7?style=flat-square&logo=shield" alt="Zero Log Audit">
-  <img src="https://img.shields.io/badge/Traffic_TLS-TLS_1.3_Enforced-22c55e?style=flat-square&logo=letsencrypt" alt="TLS 1.3">
-  <img src="https://img.shields.io/badge/Peak_Latency-%3C_35ms_IEPL-38bdf8?style=flat-square&logo=speedtest" alt="Latency">
-  <img src="https://img.shields.io/badge/Verified_Airports-20_Active-blue?style=flat-square&logo=cloudflare" alt="Active Airports">
-  <img src="https://img.shields.io/badge/Blacklist_Tracked-35%2B_Dead-e11d48?style=flat-square&logo=gitbook" alt="Blacklist">
-</p>
+  <!-- 全网安全与审计白皮书 Badges 实时状态栏 -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Security_Audit-ZERO--LOG-0284c7?style=flat-square&logo=shield" alt="Zero Log Audit">
+    <img src="https://img.shields.io/badge/Traffic_TLS-TLS_1.3_Enforced-22c55e?style=flat-square&logo=letsencrypt" alt="TLS 1.3">
+    <img src="https://img.shields.io/badge/Peak_Latency-%3C_35ms_IEPL-38bdf8?style=flat-square&logo=speedtest" alt="Latency">
+    <img src="https://img.shields.io/badge/Verified_Airports-20_Active-blue?style=flat-square&logo=cloudflare" alt="Active Airports">
+    <img src="https://img.shields.io/badge/Blacklist_Tracked-35%2B_Dead-e11d48?style=flat-square&logo=gitbook" alt="Blacklist">
+  </p>
 
-[🌐 访问官网](https://jichangknow.com) &nbsp;&nbsp;|&nbsp;&nbsp; [⚡ 核心天梯榜](https://jichangknow.com/recommend/) &nbsp;&nbsp;|&nbsp;&nbsp; [🚨 跑路黑名单](https://jichangknow.com/warning/) &nbsp;&nbsp;|&nbsp;&nbsp; [🛠️ 教程与工具](https://jichangknow.com/tutorials/)
+  <p>
+    <a href="https://jichangknow.com">🌐 访问官网</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+    <a href="https://jichangknow.com/recommend/">⚡ 核心天梯榜</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+    <a href="https://jichangknow.com/warning/">🚨 跑路黑名单</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+    <a href="https://jichangknow.com/tutorials/">🛠️ 教程与工具</a>
+  </p>
 
 </div>
 
